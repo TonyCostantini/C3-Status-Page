@@ -1,3 +1,15 @@
+:root {
+    --font-family: Inter, sans-serif;
+    --color-01: #0D0221;
+    --color-02: #0f084B;
+    --color-03: #26408B;
+    --color-04: #A6CFD5;
+    --color-05: #280004;
+    --color-grey: #444444;
+    --color-white: #FFFFFF;
+    --color-warmgrey: #D6D3D2;
+}
+
 body {
     width: 1440px;
     height: 1168px;
@@ -14,6 +26,65 @@ h1 {
     font-weight: 800;
     line-height: 44px; /* 115.789% */
     letter-spacing: -1.14px;
+}
+
+h2 {
+    color: #FFF;
+
+    /* H2/Extra-Bold */
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px; /* 115.789% */
+    letter-spacing: -1.14px;
+}
+
+h4 {
+    color: #A6CFD5;
+
+    /* H4/Extra-Bold */
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px; /* 121.429% */
+    letter-spacing: -0.84px;
+}
+
+h6 {
+    color: var(--Secondary-FFFFFF, #FFF);
+    /* H6/Bold */
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 121.053% */
+    letter-spacing: -0.57px;
+}
+
+s {
+    color: #444;
+
+    /* Subheading/Semi-Bold */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+}
+
+p {
+    color: #444;
+
+    /* P1/Med */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px; /* 121.429% */
+    letter-spacing: -0.42px;
 }
 
 #maingroup {
@@ -54,3 +125,8 @@ h1 {
     align-items: flex-start;
 }
 
+.line {
+    width: 4px;
+    height: 474px;
+    background: #A6CFD5;
+}

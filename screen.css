@@ -1,5 +1,4 @@
 :root {
-    --font-family: Inter, sans-serif;
     --color-01: #0D0221;
     --color-02: #0f084B;
     --color-03: #26408B;
@@ -13,12 +12,12 @@
 body {
     width: 1440px;
     height: 1168px;
-    background: #A6CFD5;
+    background: var(--color-03);
     margin: 0;
 }
 
 h1 {
-    color: #FFF;
+    color: var(--color-white);
 
     /* H2/Extra-Bold */
     font-family: Inter;
@@ -32,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: #FFF;
+    color: var(--color-white);
 
     /* H2/Extra-Bold */
     font-family: Inter;
@@ -43,7 +42,7 @@ h2 {
 }
 
 h4 {
-    color: #A6CFD5;
+    color: var(--color-03);
 
     /* H4/Extra-Bold */
     font-family: Inter;
@@ -55,7 +54,7 @@ h4 {
 }
 
 h5 {
-    color: #444;
+    color: var(--color-grey);
 
     /* Subheading/Semi-Bold */
     font-family: Inter;
@@ -67,7 +66,7 @@ h5 {
 }
 
 h6 {
-    color: var(--Secondary-FFFFFF, #FFF);
+    color: var(--color-white);
     /* H6/Bold */
     font-family: Inter;
     font-size: 19px;
@@ -75,6 +74,7 @@ h6 {
     line-height: 23px; /* 121.053% */
     letter-spacing: -0.57px;
     margin: 0;
+    text-decoration: none;
 }
 
 p {
@@ -140,7 +140,7 @@ p {
 }
 
 .maincontent {
-    background-color: #FFF;
+    background-color: var(--color-white);
     display: flex;
     width: 600px;
     height: 483px;
@@ -160,7 +160,7 @@ p {
 .line {
     width: 4px;
     height: 474px;
-    background: #A6CFD5;
+    background: var(--color-03);
 }
 
 .copygroup {

@@ -106,7 +106,7 @@ p {
     flex-wrap: wrap;
 }
 
-.tile {
+.tile1 {
     display: flex;
     width: 268px;
     height: 268px;
@@ -115,11 +115,11 @@ p {
     gap: 10px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: url(images/hubble-332.png) lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
 }
 
-.tile:hover {
+.tile1:hover {
     display: flex;
     width: 268px;
     height: 268px;
@@ -128,15 +128,180 @@ p {
     gap: 10px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/hubble-332.png) lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
 }
 
-.mainimage {
+.tile2 {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/spacejam-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile2:hover {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/spacejam-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile3 {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/patrick-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile3:hover {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/patrick-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile4 {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/homer-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile4:hover {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/homer-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile5 {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/empire-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile5:hover {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/empire-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile6 {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: url(images/spaceghost-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.tile6:hover {
+    display: flex;
+    width: 268px;
+    height: 268px;
+    padding: 32px;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(166, 207, 213, 0.50) 0%, rgba(166, 207, 213, 0.50) 100%), url(images/spaceghost-332.png) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(68, 68, 68, 0.25);
+}
+
+.mainimage1 {
     width: 664px;
     height: 481px;
     border-radius: 12px 12px 0px 0px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background: url(images/hubble-664.png) lightgray 50% / cover no-repeat;
+}
+
+.mainimage2 {
+    width: 664px;
+    height: 481px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(images/spacejam-664.png) lightgray 50% / cover no-repeat;
+}
+
+.mainimage3 {
+    width: 664px;
+    height: 481px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(images/patrick-664.png) lightgray 50% / cover no-repeat;
+}
+
+.mainimage4 {
+    width: 664px;
+    height: 481px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(images/homer-664.png) lightgray 50% / cover no-repeat;
+}
+
+.mainimage5 {
+    width: 664px;
+    height: 481px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(images/empire-664.png) lightgray 50% / cover no-repeat;
+}
+
+.mainimage6 {
+    width: 664px;
+    height: 481px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(images/spaceghost-664.png) lightgray 50% / cover no-repeat;
 }
 
 .maincontent {
